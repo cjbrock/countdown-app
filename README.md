@@ -1,24 +1,30 @@
-# README
+# Countdown To Percent Pledge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Application Notes
 
-Things you may want to cover:
 
-* Ruby version
+## Required Elements
+- See a live countdown timer that ticks down every second (start the count at 14 days)
+- See hover states for all interactive elements on the page
+- Fully responsive design at all screen sizes
+- Mouseover elements for all social icons
+- Good commit history
 
-* System dependencies
 
-* Configuration
+## Bonus Elements
+- Unit tests
+- Make the countdown timer flip in the middle
 
-* Database creation
 
-* Database initialization
+## Technical Specifications
 
-* How to run the test suite
+- Use RoR, Ruby, ERB, HTML, CSS, JS
+- Optional: `sassc-rails`, `Materialize`, `ViewComponent`, `Stimulus`, or other frameworks or pre-processors as necessary
 
-* Services (job queues, cache servers, search engines, etc.)
+## Evaluation Criteria
 
-* Deployment instructions
-
-* ...
+- Completeness: Does your timer meet the requirements established in the brief?
+- Correctness: Does the functionality act in sensible, thought-out ways?
+- Responsiveness: Is the countdown timer responsive and does it function sensibly at different screen/device sizes?
+- Maintainability: Is it written in a clean, maintainable way?
+- Accessibility: Do any user interactions with the timer follow WCAG/accessibility best practices? (We're aware that the colorways indicated in the design do not meet color contrast standards.)
