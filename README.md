@@ -2,6 +2,7 @@
 
 ## Application Notes
 
+- I've linked `Materialize` directly through their CDN due to some ongoing gem maintenance and deprecation issues. My preference for a production application is to bring that kind of thing in-house to be able to control when we do upgrades in order to be able to predict when 
 
 ## Required Elements
 - See a live countdown timer that ticks down every second (start the count at 14 days)
