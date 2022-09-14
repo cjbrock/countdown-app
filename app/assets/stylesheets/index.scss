@@ -1,26 +1,66 @@
-body{
-    background-color: hsl(234, 17%, 12%);
-    background-image: image-url('bg-stars.svg');
+body {
+    background: image-url('bg-stars.svg') repeat;
+    background-color:  hsl(235, 16%, 14%);
 }
+
+// General text styles
 
 .text {
     font-family: 'Red Hat Text', sans-serif;
     font-size: 14px;
+    text-align: center;
 }
 
-.text--white{
+.text--white { 
     color:hsl(0, 0%, 100%);
 }
 
-.text--lightgrey{
+.text--lightgrey {
     color: hsl(237, 18%, 59%)
 }
 
-.text--red{
+.text--red {
     color: hsl(345, 95%, 68%);
 }
 
-.page-footer.launch{
-    background-image: image-url('pattern-hills.svg');
-    background-color:hsl(234, 17%, 12%)
+// Header styles
+
+#header {
+    padding: 5em 0;
+    font-size: 1.6em;
+}
+
+// Countdown box styles
+.text__larger {
+    font-size: 7em;
+}
+
+.text__spacing {
+    letter-spacing: 0.5em;
+}
+
+.background__medium--grey {
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 25px;
+}
+
+.row .col.s3#countdown{
+    width: 21%;
+    margin: 0 2%;
+}
+
+// Footer styles
+
+.page-footer.launch {
+    background-color:hsl(234, 17%, 12%);
+    background: image-url('pattern-hills.svg') bottom center no-repeat;
+    padding: 6em 0;
+}
+
+.page-footer .row {
+    margin-bottom: 0;
+}
+
+.social-link{
+    padding: 0 2.5em;
 }
