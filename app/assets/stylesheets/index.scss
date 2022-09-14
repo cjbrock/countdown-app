@@ -1,5 +1,6 @@
 body{
     background-color: hsl(234, 17%, 12%);
+    background-image: image-url('bg-stars.svg');
 }
 
 .text {
@@ -17,4 +18,9 @@ body{
 
 .text--red{
     color: hsl(345, 95%, 68%);
+}
+
+.page-footer.launch{
+    background-image: image-url('pattern-hills.svg');
+    background-color:hsl(234, 17%, 12%)
 }
