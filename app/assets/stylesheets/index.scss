@@ -54,6 +54,7 @@ body {
 .page-footer.launch {
     background-color:hsl(234, 17%, 12%);
     background: image-url('pattern-hills.svg') bottom center no-repeat;
+    background-size: 100%;
     padding: 6em 0;
 }
 
@@ -62,5 +63,49 @@ body {
 }
 
 .social-link{
-    padding: 0 2.5em;
+    padding: 0 2em;
+}
+
+// Responsive styles
+@media only screen and (max-width: 1000px) {
+    .page-footer.launch {
+        padding: 4em 0;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .text__larger {
+        font-size: 5em;
+    }    
+
+    .text__spacing {
+        letter-spacing: 0.25em;
+    }
+
+    .social-link{
+        padding: 0 1em;
+    }
+
+    .page-footer.launch{
+        padding: 4em 0 2em 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .text__larger {
+        font-size: 4em;
+    }    
+
+    .text__spacing {
+        letter-spacing: 0.25em;
+    }
+
+    .social-link{
+        padding: 0 .5em;
+    }
+
+    .page-footer.launch{
+
+    }
 }
