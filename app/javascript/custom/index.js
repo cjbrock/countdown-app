@@ -15,11 +15,10 @@ function letsMath(launchDate) {
   }
   
   function initializeClock(id, launchDate) {
-    const clock = document.getElementById(id);
-    const daysSpan = clock.getElementById('dtime');
-    const hoursSpan = clock.getElementById('htime');
-    const minutesSpan = clock.getElementById('mtime');
-    const secondsSpan = clock.getElementById('stime');
+    const daysSpan = document.getElementById('dtime');
+    const hoursSpan = document.getElementById('htime');
+    const minutesSpan = document.getElementById('mtime');
+    const secondsSpan = document.getElementById('stime');
   
     function updateClock() {
       const t = letsMath(launchDate);
