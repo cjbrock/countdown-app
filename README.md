@@ -2,7 +2,9 @@
 
 ## Application Notes
 
-- I've linked `Materialize` directly through their CDN due to some ongoing gem maintenance and deprecation issues. My preference for a production application is to bring that kind of thing in-house to be able to control when we do upgrades in order to be able to predict when 
+- I've linked `Materialize` directly through their CDN due to some ongoing gem maintenance and deprecation issues. My preference for a production application is to bring that kind of thing in-house to be able to control when we do upgrades in order to be able to predict when and if designs will break. 
+
+- The countdown is set to start 14 days out from whenever you start it. If we were to build out a real-world counter, we'd need to build in use cases for ending states, as well as edge cases.
 
 ## Required Elements
 - See a live countdown timer that ticks down every second (start the count at 14 days)
